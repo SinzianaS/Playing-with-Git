@@ -8,6 +8,6 @@ function Person(name, age, location){
 	}
 }
 
-let char1 = new Person("Ann", "20", "Cluj")
-char1.walk()
+let char1 = new Person("Ann", 20, "Cluj")
+let char2 = new Person("Hans",25,"Boras")
 
