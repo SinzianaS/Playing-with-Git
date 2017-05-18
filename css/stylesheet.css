@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+/*Styling menu--start*/
+
+.navbar {
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	background: black;
+	z-index: 10;
+}
+
+ul {
+	list-style-type: none;
+	
+}
+li:first-child{
+	position: relative;
+	float: left;
+}
+li {
+	position: relative;
+	float: right;
+	top: 50px;
+	margin: 10px;
+	font-size: 20px;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*end of menu style*/
+
+/*Container styles*/
+.container{
+	position: absolute;
+	width: 100%;
+	background-color: grey;
+	height: 70%;
+	top: 100px;
+}
