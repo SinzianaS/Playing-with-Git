@@ -1,2 +1,2 @@
 This is just testing Git skills
-This is the first modification...
+This is the first change
